@@ -33,6 +33,7 @@ You can also custom your own topology, using a .gml file, to simulate traffic.
 ### Generate deep learning data (input-output examples)
 - `--exp-path`: It is the path to the raw data.
 - `--output-dir`: It is the path to the output data in tensorflow format.
+
 In order to convert the raw traffic data generated with DITG to tensorflow dataset, you should run the command below:
 ```bash
 python3 generate_data.py --exp-path [path-to-input-data] --output-dir [path-to-output-data]
