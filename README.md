@@ -21,7 +21,7 @@ In order to generate traffic you should run the below command, considering an id
 ```bash
 sudo mn -c && sudo $(which python) generate_traffic.py --id 1 --topo-filepath topology/toy_topology.gml
 ```
-Other topologies are availabe, such:
+Other topologies are availabe, such as:
 - `5G_crosshaul_51.gml`
 - `germany_50.gml`
 - `HPASSION_128.gml`
