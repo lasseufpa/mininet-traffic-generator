@@ -31,3 +31,17 @@ In order to convert the raw traffic data generated with DITG to tensorflow datas
 ```bash
 python3 generate_data.py --exp-path [path-to-input-data] --output-dir [path-to-output-data]
 ``` 
+
+## Credits
+If you benefit from this work, please cite on your publications using:
+```
+@misc{modesto2025,
+      title={Towards a Robust Transport Network With Self-adaptive Network Digital Twin}, 
+      author={Cláudio Modesto and João Borges and Cleverson Nahum and Lucas Matni and Cristiano Bonato Both and Kleber Cardoso and Glauco Gonçalves and Ilan Correa and Silvia Lins and Andrey Silva and Aldebaro Klautau},
+      year={2025},
+      eprint={2507.20971},
+      archivePrefix={arXiv},
+      primaryClass={cs.NI},
+      url={https://arxiv.org/abs/2507.20971}, 
+}
+```
