@@ -1,11 +1,11 @@
 # Generate traffic using D-ITG
 
-## Install D-ITG traffic generator 2.8.1
+## Installing D-ITG traffic generator 2.8.1
 ```bash
 sudo apt install d-itg
 ```
 
-## Deploy a ONOS controller in a docker container
+## Deploying a ONOS controller in a docker container
 To deplay the ONOS controller to further uses by the Mininet emulator, you should run the following commands in the same directory of `compose.yml` file:
 ```bash
 sudo docker compose up -d
@@ -30,7 +30,7 @@ Other topologies are availabe, such as:
 
 You can also custom your own topology, using a .gml file, to simulate traffic.
 
-### Generate deep learning data
+### Generate deep learning data (input-output examples)
 - `--exp-path`: It is the path to the raw data.
 - `--output-dir`: It is the path to the output data in tensorflow format.
 In order to convert the raw traffic data generated with DITG to tensorflow dataset, you should run the command below:
