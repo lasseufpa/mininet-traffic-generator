@@ -1,8 +1,14 @@
 # Generate traffic using D-ITG
 
 ## Install D-ITG traffic generator 2.8.1
-```
+```bash
 sudo apt install d-itg
+```
+
+## Deploy a ONOS controller in a docker container
+To deplay the ONOS controller to further uses by the Mininet emulator, you should run the following commands in the same directory of `compose.yml` file:
+```bash
+sudo docker compose up -d
 ```
 
 ## Traffic generator usage
